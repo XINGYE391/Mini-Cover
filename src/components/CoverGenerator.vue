@@ -69,7 +69,6 @@
       </div>
       <div class="button-container">
         <button class="btn" @click="saveWebp">保存图片</button>
-        <button v-if="uploadApiUrl" class="btn" @click="uploadImageToBackend">获取外链</button>
       </div>
     </div>
     <canvas id="canvasPreview" width="1000" height="500"></canvas>
